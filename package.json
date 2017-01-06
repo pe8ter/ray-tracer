@@ -1,0 +1,23 @@
+{
+  "name": "ray-tracer",
+  "version": "1.0.0",
+  "description": "Ray tracer for Node.js in TypeScript.",
+  "author": "Peter Safranek <pe8ter@mac.com> (http://pe8ter.com)",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/pe8ter/ray-tracer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pe8ter/ray-tracer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pe8ter/ray-tracer/issues"
+  },
+  "keywords": [
+    "blog",
+    "angular2"
+  ],
+  "scripts": {
+    "demo-ppm": "mkdir -p output && tsc && node dist/demo-ppm.js > output/demo.ppm && open output/demo.ppm"
+  }
+}
